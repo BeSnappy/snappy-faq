@@ -5806,7 +5806,33 @@ h1 {
     width: 25%;
     float: left; } }
 
-/* line 39, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 40, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+dl dt {
+  padding-top: 10px;
+  border-top: 1px solid #e6e6e6;
+  position: relative; }
+/* line 46, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+dl span {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: #aaaaaa; }
+  /* line 53, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  dl span a {
+    color: #aaaaaa;
+    margin: 0 5px; }
+    /* line 56, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    dl span a:hover {
+      text-decoration: underline; }
+
+@media only screen and (max-width: 40em) {
+  /* line 63, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  dl span {
+    display: none; } }
+
+/* line 68, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 footer {
   text-align: center;
   padding-top: 30px;
@@ -5825,18 +5851,18 @@ footer {
   /* line 166, bower_components/foundation/scss/foundation/components/global */
   footer:after {
     clear: both; }
-  /* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 74, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer .copy {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 49, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 78, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer a {
     border: 0;
     text-decoration: none; }
-  /* line 54, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 83, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer img {
     width: 75px;
     height: 26px; }
@@ -5847,31 +5873,6 @@ footer {
 /* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home h2 {
   padding-top: 20px; }
-/* line 11, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
-.home dt {
-  padding-top: 10px;
-  border-top: 1px solid #e6e6e6;
-  position: relative; }
-/* line 18, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
-.home dl span {
-  position: absolute;
-  right: 0;
-  top: 10px;
-  font-size: 0.7rem;
-  font-weight: normal;
-  color: #aaaaaa; }
-  /* line 25, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
-  .home dl span a {
-    color: #aaaaaa;
-    margin: 0 5px; }
-    /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
-    .home dl span a:hover {
-      text-decoration: underline; }
-
-@media only screen and (max-width: 40em) {
-  /* line 38, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
-  dl span {
-    display: none; } }
 
 /* line 1, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
 .sidebar {

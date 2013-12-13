@@ -35,6 +35,35 @@ h1 {
 
 }
 
+// Global Question lists
+dl {
+  dt {
+    padding-top: 10px;
+    border-top: 1px solid #E6E6E6;
+    position: relative;
+  }
+  // Question Breadcrumbs
+  span {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: $crumb-slash-color;
+    a {
+      color: $crumb-slash-color;
+      margin: 0 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media #{$small-only} {
+  dl span { display: none; }
+}
+
+
 // Global Footer
 footer {
   text-align: center;
