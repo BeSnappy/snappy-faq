@@ -1,0 +1,12 @@
+{
+  "name": "snappy-faq",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "modernizr": ">= 2.6.2"
+  },
+  "exportsOverride": {
+    "modernizr": {
+      "js": "modernizr.js"
+    }
+  }
+}
