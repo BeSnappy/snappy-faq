@@ -7,10 +7,10 @@ This is a base setup for creating Snappy faq themes.
 
 This projects uses grunt and sass to compile the assets.
 
-  npm install
-  bower install
-  grunt serve
+    npm install
+    bower install
+    grunt serve
 
 Simple PHP Server
 
-  php -S localhost:8000 -t public/
+    php -S localhost:8000 -t public/
