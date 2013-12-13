@@ -1,0 +1,25 @@
+.home {
+  h2 {
+    padding-top: 20px;
+  }
+  dt {
+    padding-top: 10px;
+    border-top: 1px solid #E6E6E6;
+    position: relative;
+  }
+  dl span {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: $crumb-slash-color;
+    a {
+      color: $crumb-slash-color;
+      margin: 0 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
