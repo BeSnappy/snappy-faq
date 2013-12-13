@@ -1,0 +1,11 @@
+{
+  "name": "snappy-faq",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "node-sass": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sass": "~0.8.0",
+    "grunt-bower-task": "~0.3.4"
+  }
+}
