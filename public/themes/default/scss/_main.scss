@@ -1,47 +1,56 @@
-// Typography
-
+// Global Typography
 h1 {
   margin-top: 20px;
 }
 
-.intro {
-  margin-top: 20px;
-}
+// Top Navigation bar
 .top-bar li {
   border-left: 1px solid #4D4D4D;
   border-right: none;
 }
 
+// Main content on small devices (phone)
 @media #{$small-only} {
+
   .content {
     @include grid-column(12, $float:left);
   }
+
   .sidebar {
     display: none;
   }
+
 }
+
+// Main content on tablet and up
 @media #{$medium-up} {
+
   .content {
     @include grid-column(9, $float:left);
   }
+
   .sidebar {
     @include grid-column(3, $float:left);
   }
+
 }
 
+// Global Footer
 footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   @include grid-row($behavior: false);
+
   .copy {
     @include grid-column(12, $float:left);
   }
+
   a {
-    display: block;
-    width: 75px;
-    height: 26px;
-    margin: 30px auto;
     border: 0;
     text-decoration: none;
   }
+
   img {
     width: 75px;
     height: 26px;

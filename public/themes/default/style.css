@@ -5770,21 +5770,17 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
-/* line 3, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 2, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 h1 {
   margin-top: 20px; }
 
 /* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-.intro {
-  margin-top: 20px; }
-
-/* line 10, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 .top-bar li {
   border-left: 1px solid #4d4d4d;
   border-right: none; }
 
 @media only screen and (max-width: 40em) {
-  /* line 16, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 15, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
     padding-left: 0.9375rem;
@@ -5796,14 +5792,14 @@ h1 {
     display: none; } }
 
 @media only screen and (min-width:40.063em) {
-  /* line 24, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
     float: left; }
-  /* line 27, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 32, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .sidebar {
     position: relative;
     padding-left: 0.9375rem;
@@ -5811,8 +5807,11 @@ h1 {
     width: 25%;
     float: left; } }
 
-/* line 32, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 39, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -5827,35 +5826,34 @@ footer {
   /* line 166, bower_components/foundation/scss/foundation/components/global */
   footer:after {
     clear: both; }
-  /* line 34, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer .copy {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 37, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 49, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer a {
-    display: block;
-    width: 75px;
-    height: 26px;
-    margin: 30px auto;
     border: 0;
     text-decoration: none; }
-  /* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 54, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer img {
     width: 75px;
     height: 26px; }
 
-/* line 2, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+/* line 3, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+.home .intro {
+  margin-top: 20px; }
+/* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home h2 {
   padding-top: 20px; }
-/* line 5, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+/* line 11, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home dt {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
   position: relative; }
-/* line 10, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+/* line 18, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home dl span {
   position: absolute;
   right: 0;
@@ -5863,32 +5861,32 @@ footer {
   font-size: 0.7rem;
   font-weight: normal;
   color: #aaaaaa; }
-  /* line 17, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+  /* line 25, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
   .home dl span a {
     color: #aaaaaa;
     margin: 0 5px; }
-    /* line 20, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+    /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
     .home dl span a:hover {
       text-decoration: underline; }
 
 /* line 1, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
 .sidebar {
+  padding: 32px 20px;
+  background: #fafafa;
   -moz-border-radius-bottomright: 3px;
   -moz-border-radius-bottomleft: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  padding: 32px 20px;
-  background: #fafafa; }
-  /* line 5, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
+  border-bottom-left-radius: 3px; }
+  /* line 6, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
   .sidebar .heading {
     padding: 2px 0px;
     text-transform: uppercase; }
-  /* line 9, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
+  /* line 11, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
   .sidebar li.divider {
     margin: 16px 0px; }
-  /* line 12, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
+  /* line 15, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
   .sidebar h5 {
     padding: 4px 0px;
     font-size: 0.77778rem;
