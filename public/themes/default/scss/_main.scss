@@ -3,12 +3,6 @@ h1 {
   margin-top: 20px;
 }
 
-// Top Navigation bar
-.top-bar li {
-  border-left: 1px solid #4D4D4D;
-  border-right: none;
-}
-
 // Main content on small devices (phone)
 @media #{$small-only} {
 
@@ -24,6 +18,12 @@ h1 {
 
 // Main content on tablet and up
 @media #{$medium-up} {
+
+  // Top Navigation bar
+  .top-bar li {
+    border-left: 1px solid #4D4D4D;
+    border-right: none;
+  }
 
   .content {
     @include grid-column(9, $float:left);

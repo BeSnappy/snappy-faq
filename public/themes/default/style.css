@@ -5774,24 +5774,23 @@ th.hide-for-touch {
 h1 {
   margin-top: 20px; }
 
-/* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-.top-bar li {
-  border-left: 1px solid #4d4d4d;
-  border-right: none; }
-
 @media only screen and (max-width: 40em) {
-  /* line 15, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 9, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 19, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 13, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .sidebar {
     display: none; } }
 
 @media only screen and (min-width:40.063em) {
+  /* line 23, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  .top-bar li {
+    border-left: 1px solid #4d4d4d;
+    border-right: none; }
   /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
@@ -5868,6 +5867,11 @@ footer {
     /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
     .home dl span a:hover {
       text-decoration: underline; }
+
+@media only screen and (max-width: 40em) {
+  /* line 38, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+  dl span {
+    display: none; } }
 
 /* line 1, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/sidebar */
 .sidebar {

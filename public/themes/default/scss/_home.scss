@@ -32,3 +32,9 @@
   }
 
 }
+
+@media #{$small-only} {
+
+  dl span { display: none; }
+
+}
