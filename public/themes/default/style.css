@@ -5774,31 +5774,44 @@ th.hide-for-touch {
 h1 {
   margin-top: 20px; }
 
+/* line 5, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+a.permalink {
+  color: #222222; }
+  /* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  a.permalink span {
+    color: white; }
+  /* line 10, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  a.permalink:hover {
+    color: #008cba; }
+    /* line 12, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    a.permalink:hover span {
+      color: #d5d4d2; }
+
 @media only screen and (max-width: 40em) {
-  /* line 9, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 22, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 13, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 26, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .sidebar {
     display: none; } }
 
 @media only screen and (min-width:40.063em) {
-  /* line 23, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 36, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .top-bar li {
     border-left: 1px solid #4d4d4d;
     border-right: none; }
-  /* line 28, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 41, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .content {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
     float: left; }
-  /* line 32, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .sidebar {
     position: relative;
     padding-left: 0.9375rem;
@@ -5806,33 +5819,59 @@ h1 {
     width: 25%;
     float: left; } }
 
-/* line 40, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 53, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 dl dt {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
   position: relative; }
-/* line 46, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-dl span {
-  position: absolute;
-  right: 0;
-  top: 10px;
-  font-size: 0.7rem;
-  font-weight: normal;
-  color: #aaaaaa; }
-  /* line 53, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-  dl span a {
-    color: #aaaaaa;
-    margin: 0 5px; }
-    /* line 56, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-    dl span a:hover {
-      text-decoration: underline; }
+  /* line 57, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  dl dt:before {
+    content: "\25B9"; }
 
 @media only screen and (max-width: 40em) {
-  /* line 63, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 79, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   dl span {
     display: none; } }
 
-/* line 68, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 83, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+.topics {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+  *zoom: 1;
+  margin-bottom: 40px; }
+  /* line 165, bower_components/foundation/scss/foundation/components/global */
+  .topics:before, .topics:after {
+    content: " ";
+    display: table; }
+  /* line 166, bower_components/foundation/scss/foundation/components/global */
+  .topics:after {
+    clear: both; }
+  /* line 35, bower_components/foundation/scss/foundation/components/block-grid */
+  .topics > li {
+    display: inline;
+    height: auto;
+    float: left;
+    padding: 0 0.625rem 1.25rem; }
+  /* line 44, bower_components/foundation/scss/foundation/components/block-grid */
+  .topics > li {
+    width: 50%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, bower_components/foundation/scss/foundation/components/block-grid */
+    .topics > li:nth-of-type(n) {
+      clear: none; }
+    /* line 48, bower_components/foundation/scss/foundation/components/block-grid */
+    .topics > li:nth-of-type(2n+1) {
+      clear: both; }
+  /* line 97, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  .topics li {
+    border: 1px dotted #e3e2e0;
+    padding: 5px 10px; }
+  /* line 101, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  .topics .ct {
+    float: right; }
+
+/* line 107, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 footer {
   text-align: center;
   padding-top: 30px;
@@ -5851,26 +5890,28 @@ footer {
   /* line 166, bower_components/foundation/scss/foundation/components/global */
   footer:after {
     clear: both; }
-  /* line 74, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 113, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer .copy {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 78, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 117, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer a {
     border: 0;
-    text-decoration: none; }
-  /* line 83, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    text-decoration: none;
+    color: #aaaaaa; }
+  /* line 123, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer img {
     width: 75px;
     height: 26px; }
 
 /* line 3, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home .intro {
-  margin-top: 20px; }
-/* line 7, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
+  margin-top: 20px;
+  margin-bottom: 20px; }
+/* line 8, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/home */
 .home h2 {
   padding-top: 20px; }
 
