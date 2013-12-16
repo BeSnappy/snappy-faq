@@ -24,11 +24,10 @@ module.exports = (grunt) ->
     sass:
       options:
         includePaths: ['bower_components/foundation/scss']
+        sourcemap: true
+        sourceComments: 'normal'
+        outputStyle: 'nested' # Can be nested, compact, compressed, expanded.
       default:
-        options:
-          sourcemap: true
-          sourceComments: 'normal'
-          outputStyle: 'nested' # Can be nested, compact, compressed, expanded.
         files:
           'public/themes/default/style.css': 'public/themes/default/scss/style.scss'
 
