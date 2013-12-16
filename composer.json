@@ -10,5 +10,10 @@
   "require": {
     "php": ">=5.3.0"
   },
+  "scripts": {
+    "post-update-cmd": [
+      "php artisan asset:publish snappy/snappy-faq"
+    ]
+  },
   "minimum-stability": "dev"
 }
