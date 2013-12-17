@@ -5788,7 +5788,7 @@ a.permalink {
       color: #d5d4d2; }
 
 /* line 18, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-.logo {
+.logo img {
   max-height: 45px; }
 
 @media only screen and (max-width: 40em) {
