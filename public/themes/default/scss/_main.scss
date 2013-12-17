@@ -15,6 +15,9 @@ a.permalink {
   }
 }
 
+.logo {
+  max-height: 45px;
+}
 
 // Main content on small devices (phone)
 @media #{$small-only} {
@@ -62,22 +65,6 @@ dl {
   ul.attachments {
     @include inline-list;
   }
-  // Question Breadcrumbs
-//  span {
-//    position: absolute;
-//    right: 0;
-//    top: 10px;
-//    font-size: 0.7rem;
-//    font-weight: normal;
-//    color: $crumb-slash-color;
-//    a {
-//      color: $crumb-slash-color;
-//      margin: 0 5px;
-//      &:hover {
-//        text-decoration: underline;
-//      }
-//    }
-//  }
 }
 @media #{$small-only} {
   dl span { display: none; }
