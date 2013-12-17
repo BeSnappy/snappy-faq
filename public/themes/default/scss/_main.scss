@@ -99,6 +99,7 @@ footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 14px;
   @include grid-row($behavior: false);
 
   .copy {
@@ -108,7 +109,11 @@ footer {
   a {
     border: 0;
     text-decoration: none;
-    color: #aaa;
+    color: #EA5642;
+    &:hover {
+      text-decoration: none;
+      color: #EA5642;
+    }
   }
 
   img {

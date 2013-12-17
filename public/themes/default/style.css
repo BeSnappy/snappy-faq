@@ -5898,6 +5898,7 @@ footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 14px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -5912,19 +5913,23 @@ footer {
   /* line 166, bower_components/foundation/scss/foundation/components/global */
   footer:after {
     clear: both; }
-  /* line 104, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 105, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer .copy {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
     float: left; }
-  /* line 108, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 109, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer a {
     border: 0;
     text-decoration: none;
-    color: #aaaaaa; }
-  /* line 114, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    color: #ea5642; }
+    /* line 113, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    footer a:hover {
+      text-decoration: none;
+      color: #ea5642; }
+  /* line 119, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   footer img {
     width: 75px;
     height: 26px; }
