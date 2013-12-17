@@ -59,6 +59,9 @@ dl {
       padding: 0 5px 0 0;
     }
   }
+  ul.attachments {
+    @include inline-list;
+  }
   // Question Breadcrumbs
 //  span {
 //    position: absolute;
