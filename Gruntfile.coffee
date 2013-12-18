@@ -4,6 +4,24 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON("package.json")
 
+    concat:
+      options:
+        separator: ';'
+      dist:
+        src: ['public/vendor/jquery/*.js', 'public/vendor/foundation/.js', 'public/js/faq.js']
+        dest: 'public/js/main.js'
+
+    jshint:
+      files: ['public/js/faq.js']
+
+    uglify:
+      options:
+        mangle:
+          except: ['jQuery']
+      faq:
+        files:
+          'public/js/main.min.js': ['public/js/faq.js']
+
     # Handle the bower components.
     bower:
       install:
@@ -34,8 +52,11 @@ module.exports = (grunt) ->
     watch:
       grunt:
         files: ['Gruntfile.coffee']
+      js:
+        files: 'public/js/faq.js'
+        tasks: ["jshint", "uglify"]
       sass:
-        files: 'public/themes/*/scss/*.scss',
+        files: 'public/themes/*/scss/*.scss'
         tasks: ['sass']
         options:
           livereload: true
@@ -50,7 +71,10 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-sass"
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-bower-task"
+  grunt.loadNpmTasks "grunt-contrib-concat"
+  grunt.loadNpmTasks "grunt-contrib-uglify"
+  grunt.loadNpmTasks "grunt-contrib-jshint"
 
   # Default task(s).
   grunt.registerTask "serve", ["bower:install", "sass", "watch"]
-  grunt.registerTask "default", ["bower:install", "sass"]
+  grunt.registerTask "default", ["bower:install", "sass", "jshint", "uglify"]
