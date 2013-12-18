@@ -1,0 +1,62 @@
+// Main content on small devices (phone)
+@media #{$small-only} {
+
+  .content {
+    @include grid-column(12, $float:left);
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+}
+
+// Main content on tablet and up
+@media #{$medium-up} {
+
+  // Top Navigation bar
+  .top-bar li {
+    border-left: 1px solid #4D4D4D;
+    border-right: none;
+  }
+
+  .content {
+    @include grid-column(9, $float:left);
+  }
+
+  .sidebar {
+    @include grid-column(3, $float:left);
+  }
+
+}
+@media #{$small-only} {
+  dl span { display: none; }
+}
+
+// Global Footer
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  @include grid-row($behavior: false);
+
+  .copy {
+    @include grid-column(12, $float:left);
+  }
+
+  a {
+    border: 0;
+    text-decoration: none;
+    color: #EA5642;
+    &:hover {
+      text-decoration: none;
+      color: #EA5642;
+    }
+  }
+
+  img {
+    width: 75px;
+    height: 26px;
+  }
+}

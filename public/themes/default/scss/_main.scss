@@ -15,40 +15,20 @@ a.permalink {
   }
 }
 
+// Top Nav
 .logo img {
   max-height: 45px;
 }
 
-// Main content on small devices (phone)
-@media #{$small-only} {
-
-  .content {
-    @include grid-column(12, $float:left);
+// Home Page
+.home {
+  .intro {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-
-  .sidebar {
-    display: none;
+  h2 {
+    padding-top: 20px;
   }
-
-}
-
-// Main content on tablet and up
-@media #{$medium-up} {
-
-  // Top Navigation bar
-  .top-bar li {
-    border-left: 1px solid #4D4D4D;
-    border-right: none;
-  }
-
-  .content {
-    @include grid-column(9, $float:left);
-  }
-
-  .sidebar {
-    @include grid-column(3, $float:left);
-  }
-
 }
 
 // Global Question lists
@@ -66,8 +46,32 @@ dl {
     @include inline-list;
   }
 }
-@media #{$small-only} {
-  dl span { display: none; }
+
+// Search Results
+.search {
+  dd {
+    max-height: 120px;
+    position: relative;
+    overflow: hidden;
+    .read-more {
+      position: absolute;
+      bottom: 0; left: 0;
+      width: 100%;
+      text-align: right;
+      margin: 0; padding: 0;
+      /* "transparent" only works here because == rgba(0,0,0,0) */
+      background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
+      background-image: -webkit-linear-gradient(top, transparent, white);
+      background-image: -moz-linear-gradient(top, transparent, white);
+      background-image: -ms-linear-gradient(top, transparent, white);
+      background-image: -o-linear-gradient(top, transparent, white);
+      a {
+        font-size: 13px;
+        background: #fff;
+        padding: 5px 10px;
+      }
+    }
+  }
 }
 
 // Topics List
@@ -91,33 +95,5 @@ dl {
   }
   .ct {
     float: right;
-  }
-}
-
-// Global Footer
-footer {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 14px;
-  @include grid-row($behavior: false);
-
-  .copy {
-    @include grid-column(12, $float:left);
-  }
-
-  a {
-    border: 0;
-    text-decoration: none;
-    color: #EA5642;
-    &:hover {
-      text-decoration: none;
-      color: #EA5642;
-    }
-  }
-
-  img {
-    width: 75px;
-    height: 26px;
   }
 }
