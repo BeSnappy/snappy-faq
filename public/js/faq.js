@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   /**
    * Expand the question
-   * @param $dd
+   * @param $dd The dd tag selector
    */
   var expand = function($dd) {
     $dd.css("max-height", "100%")
@@ -13,13 +13,15 @@ $(document).ready(function(){
     $dd.find(".read-more").fadeOut();
   };
 
-  $(".search .permalink").click(function() {
+  $("dl:not('.home-featured') dt a").click(function(e) {
+    e.preventDefault();
     var $el = $(this);
     expand($el.parent().next("dd"));
     return false;
   });
 
-  $(".search .read-more").click(function() {
+  $("dl:not('.home-featured') dd .read-more").click(function(e) {
+    e.preventDefault();
     var $el = $(this);
     expand($el.parent());
     return false;

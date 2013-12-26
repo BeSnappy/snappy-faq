@@ -47,29 +47,27 @@ dl {
   }
 }
 
-// Search Results
-.search {
-  dd {
-    max-height: 120px;
-    position: relative;
-    overflow: hidden;
-    .read-more {
-      position: absolute;
-      bottom: 0; left: 0;
-      width: 100%;
-      text-align: right;
-      margin: 0; padding: 0;
-      /* "transparent" only works here because == rgba(0,0,0,0) */
-      background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
-      background-image: -webkit-linear-gradient(top, transparent, white);
-      background-image: -moz-linear-gradient(top, transparent, white);
-      background-image: -ms-linear-gradient(top, transparent, white);
-      background-image: -o-linear-gradient(top, transparent, white);
-      a {
-        font-size: 13px;
-        background: #fff;
-        padding: 5px 10px;
-      }
+// Questions List
+dd {
+  max-height: 120px;
+  position: relative;
+  overflow: hidden;
+  .read-more {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    text-align: right;
+    margin: 0; padding: 0;
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
+    background-image: -webkit-linear-gradient(top, transparent, white);
+    background-image: -moz-linear-gradient(top, transparent, white);
+    background-image: -ms-linear-gradient(top, transparent, white);
+    background-image: -o-linear-gradient(top, transparent, white);
+    a {
+      font-size: 13px;
+      background: #fff;
+      padding: 5px 10px;
     }
   }
 }

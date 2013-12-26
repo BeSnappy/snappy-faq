@@ -5904,13 +5904,13 @@ dl ul.attachments {
     dl ul.attachments > li > * {
       display: block; }
 
-/* line 52, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-.search dd {
+/* line 51, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+dd {
   max-height: 120px;
   position: relative;
   overflow: hidden; }
-  /* line 56, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-  .search dd .read-more {
+  /* line 55, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  dd .read-more {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -5924,13 +5924,13 @@ dl ul.attachments {
     background-image: -moz-linear-gradient(top, transparent, #ffffff);
     background-image: -ms-linear-gradient(top, transparent, #ffffff);
     background-image: -o-linear-gradient(top, transparent, #ffffff); }
-    /* line 68, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
-    .search dd .read-more a {
+    /* line 67, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    dd .read-more a {
       font-size: 13px;
       background: white;
       padding: 5px 10px; }
 
-/* line 78, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 76, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 .topics {
   display: block;
   padding: 0;
@@ -5960,11 +5960,11 @@ dl ul.attachments {
     /* line 48, bower_components/foundation/scss/foundation/components/block-grid */
     .topics > li:nth-of-type(2n+1) {
       clear: both; }
-  /* line 92, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 90, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .topics li {
     border: 1px dotted #e3e2e0;
     padding: 5px 10px; }
-  /* line 96, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 94, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .topics .ct {
     float: right; }
 
