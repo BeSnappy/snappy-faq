@@ -1,56 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" >
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snappy Faqs</title>
-  <link href="themes/default/style.css" rel="stylesheet">
-  <script src="vendor/modernizr/js/modernizr.js"></script>
-</head>
-<body>
-
-<nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">Snappy FAQ</a></h1>
-    </li>
-    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="has-dropdown">
-        <a href="index.html">FAQ's</a>
-        <ul class="dropdown">
-          <li><a href="topic.html">FAQ</a></li>
-          <li><a href="topic.html">Sales</a></li>
-          <li><a href="topic.html">Webhooks</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- Left Nav Section - This is where custom navigation items will be inserted. -->
-    <ul class="left">
-      <li class="link"><a href="index.html">Main Site</a></li>
-      <li class="twitter"><a href="index.html">@mycompany</a></li>
-      <li class="email"><a href="index.html">Email Us</a></li>
-      <li class="link"><a href="index.html">Blog</a></li>
-    </ul>
-  </section>
-</nav>
-
-<div class="row">
+<?php include("_header.php"); ?>
 
   <div class="content search">
 
     <h1>Search Results</h1>
 
-    <dl>
+    <dl class="search-results">
       <dt id="custom-contact-lookup-642" name="custom-contact-lookup-642">
-        <a href="#custom-contact-lookup-642" class="permalink expand" title="Link directly to this section">
+        <a href="topic.php#custom-contact-lookup-642" class="permalink expand" title="Link directly to this section">
           How do I use the custom contact lookup application? <span>#</span>
         </a>
       </dt>
@@ -73,7 +29,7 @@
       </dd>
 
       <dt id="test-2" name="test-2">
-        <a href="#test-2" class="permalink" title="How can I use my own email domain?">
+        <a href="topic.php#test-2" class="permalink" title="How can I use my own email domain?">
           How can I use my own email domain? <span>#</span>
         </a>
       </dt>
@@ -109,54 +65,19 @@
         <div class="read-more"><a href="#" class="">Read More</a></div>
       </dd>
       <dt id="test-3" name="test-3">
-        <a href="#test-3" class="permalink" title="How do I pay for service?">
+        <a href="topic.php#test-3" class="permalink" title="How do I pay for service?">
           How can I use my own email domain? <span>#</span>
         </a>
       </dt>
       <dd>Yes, you can simply reply to any notification email Snappy sends and the reply will be logged in Snappy and forwarded on to the customer. There's no need...</dd>
       <dt id="test-4" name="test-4">
-        <a href="#test-3" class="permalink" title="How do I use the custom contact lookup application?">
+        <a href="topic.php#test-3" class="permalink" title="How do I use the custom contact lookup application?">
           How do I use the custom contact lookup application? <span>#</span>
         </a>
       </dt>
       <dd>The custom contact application allows you to load customized contact information from any third-party system. The application settings window accepts two...</dd>
     </dl>
-  </div>
-  <div class="sidebar">
-    <form>
-      <input tabindex="1" id="autocomplete" type="search" placeholder="Search Faqs" autocomplete="off">
-    </form>
-    <ul class="side-nav">
-      <li class="heading">FAQ</li>
-      <li><a href="topic.html#custom-contact-lookup">Custom Contact Lookup</a></li>
-      <li><a href="topic.html#email" >Email</a></li>
-      <li><a href="topic.html#faq">FAQ</a></li>
-      <li><a href="topic.html#inline-commands">Inline Commands</a></li>
-      <li><a href="topic.html#pricing" class="nav">Pricing</a></li>
-      <li><a href="topic.html#search" class="nav">Search</a></li>
-      <li><a href="topic.html#snappy-flavored-markdown" class="nav">Snappy Flavored Markdown</a></li>
-      <li class="divider"></li>
-      <li class="heading">Webhooks</li>
-      <li><a href="topic.html">Introduction</a></li>
-      <li><a href="topic.html">Available Events</a></li>
-      <li><a href="topic.html">Objects</a></li>
-    </ul>
-  </div>
-</div>
 
-<footer>
-  <div class="copy">
-    <a href="http://www.besnappy.com/?utm_source=app&amp;utm_medium=web&amp;utm_campaign=faq">
-      Streamlined support by&nbsp; <img src="http://help.besnappy.com/img/snappy_horizontal.png">
-    </a>
   </div>
-</footer>
 
-<script src="vendor/jquery/jquery.js"></script>
-<script src="vendor/foundation/foundation.js"></script>
-<script src="js/main.min.js"></script>
-<script>
-  $(document).foundation();
-</script>
-</body>
-</html>
+<?php include("_footer.php"); ?>

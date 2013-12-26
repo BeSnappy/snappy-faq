@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" >
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snappy Faqs</title>
-  <link href="themes/default/style.css" rel="stylesheet">
-  <script src="vendor/modernizr/js/modernizr.js"></script>
-</head>
-<body>
-
-  <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Snappy FAQ</a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class="has-dropdown">
-          <a href="index.html">FAQ's</a>
-          <ul class="dropdown">
-            <li><a href="topic.html">FAQ</a></li>
-            <li><a href="topic.html">Sales</a></li>
-            <li><a href="topic.html">Webhooks</a></li>
-          </ul>
-        </li>
-      </ul>
-
-      <!-- Left Nav Section - This is where custom navigation items will be inserted. -->
-      <ul class="left">
-        <li class="link"><a href="index.html">Main Site</a></li>
-        <li class="twitter"><a href="index.html">@mycompany</a></li>
-        <li class="email"><a href="index.html">Email Us</a></li>
-        <li class="link"><a href="index.html">Blog</a></li>
-      </ul>
-    </section>
-  </nav>
-
-  <div class="row">
+<?php include("_header.php"); ?>
 
     <div class="content topic">
 
@@ -150,41 +106,5 @@
         </dd>
       </dl>
     </div>
-    <div class="sidebar">
-      <form>
-        <input tabindex="1" id="autocomplete" type="search" placeholder="Search Faqs" autocomplete="off">
-      </form>
-      <ul class="side-nav">
-        <li class="heading">FAQ</li>
-        <li><a href="topic.html#custom-contact-lookup">Custom Contact Lookup</a></li>
-        <li><a href="topic.html#email" >Email</a></li>
-        <li><a href="topic.html#faq">FAQ</a></li>
-        <li><a href="topic.html#inline-commands">Inline Commands</a></li>
-        <li><a href="topic.html#pricing" class="nav">Pricing</a></li>
-        <li><a href="topic.html#search" class="nav">Search</a></li>
-        <li><a href="topic.html#snappy-flavored-markdown" class="nav">Snappy Flavored Markdown</a></li>
-        <li class="divider"></li>
-        <li class="heading">Webhooks</li>
-        <li><a href="topic.html">Introduction</a></li>
-        <li><a href="topic.html">Available Events</a></li>
-        <li><a href="topic.html">Objects</a></li>
-      </ul>
-    </div>
-  </div>
 
-  <footer>
-    <div class="copy">
-      <a href="http://www.besnappy.com/?utm_source=app&amp;utm_medium=web&amp;utm_campaign=faq">
-        Streamlined support by&nbsp; <img src="http://help.besnappy.com/img/snappy_horizontal.png">
-      </a>
-    </div>
-  </footer>
-
-  <script src="vendor/jquery/jquery.js"></script>
-  <script src="vendor/foundation/foundation.js"></script>
-  <script src="js/main.min.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
-</body>
-</html>
+<?php include('_footer.php'); ?>

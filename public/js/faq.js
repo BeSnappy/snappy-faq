@@ -13,14 +13,14 @@ $(document).ready(function(){
     $dd.find(".read-more").fadeOut();
   };
 
-  $("dl:not('.home-featured') dt a").click(function(e) {
+  $("dl:not('.home-featured'):not('.search-results') dt a").click(function(e) {
     e.preventDefault();
     var $el = $(this);
     expand($el.parent().next("dd"));
     return false;
   });
 
-  $("dl:not('.home-featured') dd .read-more").click(function(e) {
+  $("dl:not('.home-featured'):not('.search-results') dd .read-more").click(function(e) {
     e.preventDefault();
     var $el = $(this);
     expand($el.parent());
