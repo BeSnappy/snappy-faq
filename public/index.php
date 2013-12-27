@@ -12,7 +12,7 @@
 
       <dl class="home-featured">
         <dt id="my-other-first-topic-14" name="my-other-first-topic-14">
-          <a href="topic.html" class="permalink" title="Link directly to this section">
+          <a href="topic.php#custom-contact-lookup-642" class="permalink" title="Link directly to this section">
              How can I use my own email domain?
             <span>#</span>
           </a>
@@ -24,14 +24,14 @@
           <div class="read-more"><a href="#" class="expand">Read More</a></div>
         </dd>
         <dt>
-          <a href="topic.html" class="permalink" title="Link directly to this section">How do I pay for service? <span>#</span></a>
+          <a href="topic.php" class="permalink" title="Link directly to this section">How do I pay for service? <span>#</span></a>
         </dt>
         <dd>
           Yes, you can simply reply to any notification email Snappy sends and the reply will be logged in Snappy and forwarded on to the customer. There's no need...
           <div class="read-more"><a href="#" class="expand">Read More</a></div>
         </dd>
         <dt>
-          <a href="topic.html" class="permalink" title="Link directly to this section">How do I use the custom contact lookup application? <span>#</span></a>
+          <a href="topic.php" class="permalink" title="Link directly to this section">How do I use the custom contact lookup application? <span>#</span></a>
         </dt>
         <dd>
           The custom contact application allows you to load customized contact information from any third-party system. The application settings window accepts two...

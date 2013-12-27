@@ -14,7 +14,7 @@
         <li><a href="#snappy-flavored-markdown" class="nav">Snappy Flavored Markdown</a><span class="ct">2</span></li>
       </ul>
 
-      <h3 id="custom-contact-lookup" name="custom-contact-lookup">
+      <h3 id="custom-contact-lookup" class="topic" name="custom-contact-lookup">
         <a href="#custom-contact-lookup" class="permalink" title="Link directly to this section">
           Custom Contact Lookup <span>#</span>
         </a>
@@ -44,7 +44,7 @@
         </dd>
       </dl>
 
-      <h3 id="email" name="email">
+      <h3 id="email" class="topic" name="email">
         <a href="#email" class="permalink" title="Link directly to this section">
           Email <span>#</span>
         </a>

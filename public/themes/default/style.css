@@ -5881,12 +5881,16 @@ a.permalink {
 dl dt {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
-  position: relative; }
-  /* line 40, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  position: relative;
+  font-size: 1.2rem; }
+  /* line 41, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   dl dt:before {
     content: "\25B9";
     padding: 0 5px 0 0; }
-/* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 45, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  dl dt a.permalink {
+    color: #006887; }
+/* line 49, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 dl ul.attachments {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
@@ -5904,12 +5908,13 @@ dl ul.attachments {
     dl ul.attachments > li > * {
       display: block; }
 
-/* line 51, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 55, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 dd {
+  padding-left: 20px;
   max-height: 120px;
   position: relative;
   overflow: hidden; }
-  /* line 55, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 60, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   dd .read-more {
     position: absolute;
     bottom: 0;
@@ -5924,13 +5929,13 @@ dd {
     background-image: -moz-linear-gradient(top, transparent, #ffffff);
     background-image: -ms-linear-gradient(top, transparent, #ffffff);
     background-image: -o-linear-gradient(top, transparent, #ffffff); }
-    /* line 67, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+    /* line 72, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
     dd .read-more a {
       font-size: 13px;
       background: white;
       padding: 5px 10px; }
 
-/* line 76, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+/* line 81, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
 .topics {
   display: block;
   padding: 0;
@@ -5960,11 +5965,11 @@ dd {
     /* line 48, bower_components/foundation/scss/foundation/components/block-grid */
     .topics > li:nth-of-type(2n+1) {
       clear: both; }
-  /* line 90, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 95, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .topics li {
     border: 1px dotted #e3e2e0;
     padding: 5px 10px; }
-  /* line 94, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
+  /* line 99, /Users/eric/Code/Shared/snappy-faq/public/themes/default/scss/main */
   .topics .ct {
     float: right; }
 

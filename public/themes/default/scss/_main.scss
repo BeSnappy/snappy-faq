@@ -37,9 +37,13 @@ dl {
     padding-top: 10px;
     border-top: 1px solid #E6E6E6;
     position: relative;
+    font-size: 1.2rem;
     &:before {
       content: "\25B9";
       padding: 0 5px 0 0;
+    }
+    a.permalink {
+      color: darken($primary-color, 10%)
     }
   }
   ul.attachments {
@@ -49,6 +53,7 @@ dl {
 
 // Questions List
 dd {
+  padding-left: 20px;
   max-height: 120px;
   position: relative;
   overflow: hidden;
