@@ -43,8 +43,8 @@ module.exports = (grunt) ->
       options:
         includePaths: ['bower_components/foundation/scss', 'bower_components/foundation-icon-fonts']
         sourcemap: true
-        sourceComments: 'normal'
-        outputStyle: 'nested' # Can be nested, compact, compressed, expanded.
+        sourceComments: 'none'
+        outputStyle: 'compressed' # Can be nested, compact, compressed, expanded.
       default:
         files:
           'public/themes/default/style.css': 'public/themes/default/scss/style.scss'
