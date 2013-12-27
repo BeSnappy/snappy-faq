@@ -17,6 +17,11 @@ This projects uses grunt and sass to compile the assets.
     bower install
     grunt serve
 
+Foundation icons have an open bug report that has to be manually adjusted in the bower_components. Remove the $fi-path path
+in _foundation_icons.scss so it looks like this:
+
+    font-family: "foundation-icons";
+
 Simple PHP Server
 
     php -S localhost:8000 -t public/

@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<div class="contain-to-grid">
 <nav class="top-bar" data-topbar>
 	<ul class="title-area">
 		<li class="name">
@@ -35,12 +36,13 @@
 		<!-- Left Nav Section - This is where custom navigation items will be inserted. -->
 		<ul class="left">
 			<li class="link"><a href="index.php">Main Site</a></li>
-			<li class="twitter"><a href="index.php">@mycompany</a></li>
-			<li class="email"><a href="index.php">Email Us</a></li>
+			<li class="twitter"><a href="index.php"><i class="fi-social-twitter"></i> @mycompany</a></li>
+			<li class="email"><a href="index.php"><i class="fi-mail"></i> Contact Us</a></li>
 			<li class="link"><a href="index.php">Blog</a></li>
 		</ul>
 	</section>
 </nav>
+</div>
 
 <!-- Main area -->
 <div class="row">
