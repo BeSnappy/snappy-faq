@@ -5596,12 +5596,17 @@ dd {
     text-align: right;
     margin: 0;
     padding: 0;
-    /* "transparent" only works here because == rgba(0,0,0,0) */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(1, #ffffff));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
+    /* Chrome, Safari 4+ */
     background-image: -webkit-linear-gradient(top, transparent, #ffffff);
+    /* Chrome 10-25, iOS 5+, Safari 5.1+ */
     background-image: -moz-linear-gradient(top, transparent, #ffffff);
-    background-image: -ms-linear-gradient(top, transparent, #ffffff);
-    background-image: -o-linear-gradient(top, transparent, #ffffff); }
+    /* Firefox 3.6-15 */
+    background-image: -o-linear-gradient(top, transparent, #ffffff);
+    /* Opera 11.10-12.00 */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7));
+    /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */ }
     dd .read-more a {
       font-size: 13px;
       background: white;
