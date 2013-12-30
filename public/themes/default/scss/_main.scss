@@ -21,8 +21,17 @@ a.permalink {
 }
 nav i {
   font-size: 20px;
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
   padding-right: 5px;
+}
+@media #{$medium-up} {
+  .top-bar-section li a:not(.button) {
+    line-height: $topbar-height - 1;
+  }
+  .top-bar-section li li a:not(.button) {
+    line-height: 1;
+  }
 }
 
 // Home Page
