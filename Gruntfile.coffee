@@ -45,6 +45,9 @@ module.exports = (grunt) ->
         sourcemap: true
         sourceComments: 'none'
         outputStyle: 'nested' # Can be nested, compact, compressed, expanded.
+      freelancer:
+        files:
+          'public/themes/freelancer/style.css': 'public/themes/freelancer/scss/style.scss'
       default:
         files:
           'public/themes/default/style.css': 'public/themes/default/scss/style.scss'
