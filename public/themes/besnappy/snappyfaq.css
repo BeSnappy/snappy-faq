@@ -124,8 +124,8 @@ meta.foundation-mq-topbar {
           display: block;
           width: 16px;
           height: 0;
-          -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
-          box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
+          -webkit-box-shadow: 0 10px 0 1px #cccccc, 0 16px 0 1px #cccccc, 0 22px 0 1px #cccccc;
+          box-shadow: 0 10px 0 1px #cccccc, 0 16px 0 1px #cccccc, 0 22px 0 1px #cccccc; }
   .top-bar.expanded {
     height: auto;
     background: transparent; }
@@ -187,7 +187,7 @@ meta.foundation-mq-topbar {
         background: #d3290e; }
   .top-bar-section ul li:hover > a {
     background: white;
-    color: #cccccc; }
+    color: #aaaaaa; }
   .top-bar-section ul li.active > a {
     background: #008cba;
     color: white; }
@@ -238,7 +238,7 @@ meta.foundation-mq-topbar {
       padding: 8px 23.33333px 2px;
       margin-bottom: 0;
       text-transform: uppercase;
-      color: #707070;
+      color: #aaaaaa;
       font-weight: bold;
       font-size: 0.625rem; }
 
@@ -286,7 +286,7 @@ meta.foundation-mq-topbar {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
       background: white;
-      color: #cccccc; }
+      color: #aaaaaa; }
     .top-bar-section li a:not(.button) {
       padding: 0 23.33333px;
       line-height: 70px;
@@ -352,7 +352,7 @@ meta.foundation-mq-topbar {
         right: 100%; }
   .no-js .top-bar-section ul li:hover > a {
     background: white;
-    color: #cccccc; }
+    color: #aaaaaa; }
   .no-js .top-bar-section ul li:active > a {
     background: #008cba;
     color: white; }
