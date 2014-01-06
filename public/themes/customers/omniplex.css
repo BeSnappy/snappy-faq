@@ -1,0 +1,328 @@
+/*CSS for SlideRoom Snappy FAQ*/
+
+body {
+  margin: 0;
+  color: #545a5f;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1.8em;
+  border-top: 0px solid #1d7ae0;
+}
+a {
+  color: #1d7ae0;
+}
+a:hover {
+  color: #3a3e42;
+}
+img {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  overflow: hidden;
+  max-width: 700px !important;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr{
+  border: 0px;
+  background-color: #eee;
+  height: 4px;
+}
+
+#header {
+  display: block;
+  margin: 0px 0px 90px 0px;
+  font-family: "helvetica neue", helvetica, arial, Verdana, sans-serif;
+  font-style: normal;
+  background-image: url("http://www.slideroom.com/images/sr_logo.png");
+  background-repeat: no-repeat;
+  background-position: 20px 25px;
+  background-size: 147px 30px;
+  padding: 25px 0px 55px 0px;
+  border-bottom: 1px solid #e8e8e8;
+  min-width: 700px;
+}
+#header ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+}
+#header ul li {
+  float: right;
+  display: inline-block;
+  margin-right: 15px;
+}
+#header ul li a {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: #b2b2b2;
+  text-decoration: none;
+}
+
+#header ul li a:hover {
+  text-decoration: underline;
+}
+
+#header ul li:first-child{
+  display: none !important;
+}
+
+#header ul li a:nth-child(2){
+  /* margin-left: -18px; */
+}
+
+h1, h2, h3, h4{
+  font-family: "helvetica neue", helvetica, arial, Verdana, sans-serif;
+  color: #3a3e42;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 24px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  border-bottom: 6px solid #eee;
+  color: #1d7ae0;
+}
+
+h3 .permalink{
+  color: #1d7ae0 !important;
+}
+h3.selected{
+  margin-top: 60px !important;
+}
+
+p, ol{
+  margin-bottom: 31px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+#footer {
+  display: block;
+  width: 700px;
+  margin: 50px auto;
+  border-top: 1px solid #F4F4F4;
+}
+#footer a {
+  display: block;
+  width: 75px;
+  height: 26px;
+  margin: 30px auto;
+  border: none;
+  text-decoration: none;
+}
+#footer img {
+  width: 75px;
+  height: 26px;
+  border: none;
+  box-shadow: none;
+}
+#faq-list {
+  width: 700px;
+  margin: 50px auto;
+}
+#faq-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#faq-list ul li:before {
+  content: "\25B7";
+}
+#faq-list li {
+  display: block;
+  margin-bottom: 12px;
+}
+#faq-list li a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #444;
+  text-decoration: none;
+  padding-left: 12px;
+}
+#faq-list li a:hover {
+  text-decoration: underline;
+}
+#wrap {
+  width: 700px;
+  margin: 50px auto;
+}
+table {
+  width: 100%;
+  border-spacing: 10px 0;
+}
+table.topics {
+  border: 1px dotted #e3e2e0;
+  border-right: 0;
+  border-bottom: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 40px 0px;
+}
+table.topics td {
+  border-bottom: 1px dotted #e3e2e0;
+  padding: 0;
+}
+table.topics td.link {
+  width: 257px;
+}
+table.topics td.link a {
+  display: block;
+  padding: 3px 8px;
+  color: #444;
+  text-decoration: none;
+}
+table.topics td.link a:hover {
+  color: #4687b8;
+}
+table.topics td.ct {
+  width: 40px;
+  border-right: 1px dotted #e3e2e0;
+  padding-right: 10px;
+  text-align: right;
+}
+table td {
+  border-bottom: 1px dotted #ccc;
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+}
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+dt{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+dt a {
+  color: #444;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 0px !important;
+}
+dt a:hover {
+  color: #4687b8;
+}
+dt:before {
+  /* content: "\25B9"; */
+  content: none !important;
+}
+dd {
+  border-bottom: 0px solid #eee;
+  padding-bottom: 40px;
+  margin-bottom: 8px;
+}
+dd:last-child {
+  border-bottom: none;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+.permalink {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: "helvetica neue", helvetica, arial, Verdana, sans-serif;
+}
+.permalink span {
+  color: #fff;
+}
+.permalink:hover {
+  color: #4687b8;
+}
+.permalink:hover span {
+  color: #d5d4d2;
+}
+h3 .permalink span {
+  font-size: 18px;
+}
+.selected {
+  padding: 5px 5px;
+  background-color: #cae3fe;
+  border-radius: 3px;
+}
+#scrollup {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #7b7b84;
+  text-align: center;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, Verdana, sans-serif;
+}
+#scrollup:hover {
+  background-color: #2d7cb8;
+  color: #fff;
+}
+#search-form {
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  padding: 25px;
+}
+#search-form #search {
+  width: 630px;
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 0px;
+}
+#search-form #search_clear {
+  position: absolute;
+  top: 32px;
+  right: 34px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  width: 20px;
+  color: #d6d6d6;
+  font-family: "helvetica neue", helvetica, arial, Verdana, sans-serif;
+}
+#search-form #search_clear:hover {
+  text-decoration: underline;
+}
+#noresults {
+  display: none;
+  margin-top: 30px;
+}
+
+.footnotes{
+  font-size: 0.85em;
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+code{
+  font-size: 1em;
+}
+
+blockquote{
+  font-style: italic;
+  padding-left: 30px;
+  border-left: 4px solid #cccccc;
+  margin: 40px 0px 40px 30px;
+}
