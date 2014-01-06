@@ -45,6 +45,9 @@ module.exports = (grunt) ->
         sourcemap: true
         sourceComments: 'none'
         outputStyle: 'nested' # Can be nested, compact, compressed, expanded.
+      besnappy:
+        files:
+          'public/themes/besnappy/snappyfaq.css': 'public/themes/besnappy/scss/snappyfaq.scss'
       default:
         files:
           'public/themes/default/style.css': 'public/themes/default/scss/style.scss'
