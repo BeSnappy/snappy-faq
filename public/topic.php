@@ -105,6 +105,9 @@
           <div class="read-more"><a href="#" class="expand">Read More</a></div>
         </dd>
       </dl>
+
+      <a href="#" id="scrollup">&#x25B2; &nbsp; TOP</a>
+
     </div>
 
 <?php include('_footer.php'); ?>
