@@ -1,6 +1,6 @@
 <?php include("_header.php"); ?>
 
-    <div class="content topic">
+    <div class="content faq">
       <div class="content-container">
         <h1>FAQ</h1>
 
