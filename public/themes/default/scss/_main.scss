@@ -36,6 +36,7 @@ dl {
   .active {
     background-color: #fcf8e3;
     border: none;
+    &:hover { background-color: #fcf8e3; }
   }
   dt {
     padding: 10px;
@@ -59,7 +60,7 @@ dl {
     max-height: 120px;
     position: relative;
     overflow: hidden;
-    &:hover { cursor: pointer; }
+    &:hover { background: #faf9f1; cursor: pointer; }
     &.active:hover { cursor: default; }
     .read-more {
       position: absolute;

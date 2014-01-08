@@ -5562,6 +5562,8 @@ nav i {
 dl .active {
   background-color: #fcf8e3;
   border: none; }
+  dl .active:hover {
+    background-color: #fcf8e3; }
 dl dt {
   padding: 10px;
   margin: 0;
@@ -5595,6 +5597,7 @@ dl dd {
   position: relative;
   overflow: hidden; }
   dl dd:hover {
+    background: #faf9f1;
     cursor: pointer; }
   dl dd.active:hover {
     cursor: default; }
