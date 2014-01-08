@@ -16,7 +16,7 @@
 
 	<script src="vendor/jquery/jquery.js"></script>
 	<script src="vendor/foundation/foundation.js"></script>
-	<script src="js/main.min.js"></script>
+	<script src="js/faq.js"></script>
 	<script>
 		$(document).foundation();
 	</script>

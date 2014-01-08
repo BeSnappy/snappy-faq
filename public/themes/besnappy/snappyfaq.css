@@ -559,15 +559,6 @@ body {
 .contain-to-grid {
   margin-bottom: 40px; }
 
-.top-bar li {
-  border-left: none; }
-
-@media only screen and (min-width:40.063em) {
-  .top-bar-section li a:not(.button) {
-    line-height: 69px; }
-  .top-bar-section li li a:not(.button) {
-    line-height: 1; } }
-
 .top-bar .name {
   width: 128px; }
   .top-bar .name h1 a {
@@ -595,10 +586,6 @@ body {
 .content {
   background: white;
   border: 1px solid #d6d7cd; }
-
-#scrollup {
-  padding: 10px;
-  display: block; }
 
 .sidebar {
   border: 1px solid #d6d7cd;

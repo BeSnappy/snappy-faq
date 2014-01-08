@@ -15,10 +15,10 @@
 @media #{$medium-up} {
 
   // Top Navigation bar
-  .top-bar li {
-    border-left: 1px solid #4D4D4D;
-    border-right: none;
-  }
+  // .top-bar li {
+  //   border-left: 1px solid #4D4D4D;
+  //   border-right: none;
+  // }
 
   .content {
     @include grid-column(9, $float:left);

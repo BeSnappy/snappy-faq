@@ -5,6 +5,8 @@ $(document).ready(function(){
    * @param $dd The dd tag selector
    */
   var expand = function($dd) {
+    $("dl").find(".active").removeClass("active");
+    $dd.addClass("active").prev().addClass("active");
     $dd.css("max-height", "100%")
       .animate({
         "height": "100%"
@@ -13,13 +15,24 @@ $(document).ready(function(){
     $dd.find(".read-more").fadeOut();
   };
 
-  $("dl:not('.home-featured'):not('.search-results') dt a").click(function(e) {
+  $(".topic dt a").click(function(e) {
     expand($(this).parent().next("dd"));
   });
 
-  $("dl:not('.home-featured') dd .read-more").click(function(e) {
+  $(".home-featured dd, .search-results dd").click(function(e) {
     e.preventDefault();
-    expand($(this).parent());
+    window.location.href = $(this).prev().find("a").attr("href");
   });
+
+  $(".topic dl dd:not('.active')").click(function(e) {
+    e.preventDefault();
+    expand($(this));
+  });
+
+  // Set the active class and expand
+  hash = window.location.hash;
+  if (hash) {
+    expand($(hash).next("dd"));
+  }
 
 });

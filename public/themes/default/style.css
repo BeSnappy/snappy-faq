@@ -5478,9 +5478,6 @@ th.hide-for-touch {
     display: none; } }
 
 @media only screen and (min-width:40.063em) {
-  .top-bar li {
-    border-left: 1px solid #4d4d4d;
-    border-right: none; }
   .content {
     position: relative;
     padding-left: 0.9375rem;
@@ -5550,14 +5547,8 @@ a.permalink {
 nav i {
   font-size: 20px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   padding-right: 5px; }
-
-@media only screen and (min-width:40.063em) {
-  .top-bar-section li a:not(.button) {
-    line-height: 49px; }
-  .top-bar-section li li a:not(.button) {
-    line-height: 1; } }
 
 .home .intro {
   margin-top: 20px;
@@ -5565,11 +5556,20 @@ nav i {
 .home h2 {
   padding-top: 20px; }
 
+.content-container {
+  padding: 0 20px; }
+
+dl .active {
+  background-color: #fcf8e3;
+  border: none; }
 dl dt {
-  padding-top: 10px;
+  padding: 10px;
+  margin: 0;
   border-top: 1px solid #e6e6e6;
   position: relative;
   font-size: 1.2rem; }
+  dl dt.active:before {
+    content: "\25BE"; }
   dl dt:before {
     content: "\25B8";
     padding: 0 5px 0 0; }
@@ -5589,13 +5589,16 @@ dl ul.attachments {
     display: block; }
     dl ul.attachments > li > * {
       display: block; }
-
-dd {
-  padding-left: 35px;
+dl dd {
+  padding: 10px 10px 10px 35px;
   max-height: 120px;
   position: relative;
   overflow: hidden; }
-  dd .read-more {
+  dl dd:hover {
+    cursor: pointer; }
+  dl dd.active:hover {
+    cursor: default; }
+  dl dd .read-more {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -5614,16 +5617,15 @@ dd {
     /* Opera 11.10-12.00 */
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7));
     /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */ }
-    dd .read-more a {
-      font-size: 13px;
-      background: white;
-      padding: 5px 10px; }
+    dl dd .read-more a {
+      color: white; }
 
 .topics {
   display: block;
   padding: 0;
   margin: 0 -0.625rem;
   *zoom: 1;
+  padding: 0 20px;
   margin-bottom: 40px; }
   .topics:before, .topics:after {
     content: " ";
@@ -5647,6 +5649,10 @@ dd {
     padding: 5px 10px; }
   .topics .ct {
     float: right; }
+
+#scrollup {
+  padding: 10px;
+  display: block; }
 
 .sidebar {
   padding: 32px 20px;

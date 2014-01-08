@@ -7,17 +7,6 @@ body {
 .contain-to-grid {
   margin-bottom: 40px;
 }
-.top-bar li {
-  border-left: none;
-}
-@media #{$medium-up} {
-  .top-bar-section li a:not(.button) {
-    line-height: $topbar-height - 1;
-  }
-  .top-bar-section li li a:not(.button) {
-    line-height: 1;
-  }
-}
 
 // Logo
 .top-bar .name {
@@ -54,10 +43,6 @@ body {
   border: 1px solid #d6d7cd;
 }
 
-#scrollup {
-  padding: 10px;
-  display: block;
-}
 .sidebar {
   border: 1px solid #d6d7cd;
   border-left: none;

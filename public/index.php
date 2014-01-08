@@ -2,7 +2,7 @@
 
 	<!-- Content -->
 	<div class="content home">
-
+    <div class="content-container">
       <div class="intro">
         <h1>MyCompany Help Center</h1>
         <p>This <kbd>.intro</kbd> div will be inserted from the Account Settings -> Faq -> Description field inside Snappy. This allows you to put any text you want here.</p>
@@ -38,8 +38,8 @@
           <div class="read-more"><a href="#" class="expand">Read More</a></div>
         </dd>
       </dl>
-
-		</div>
+    </div>
+	</div>
 	<!-- End Content -->
 
 <?php include('_footer.php'); ?>
