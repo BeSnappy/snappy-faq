@@ -48,6 +48,9 @@ module.exports = (grunt) ->
       besnappy:
         files:
           'public/themes/besnappy/snappyfaq.css': 'public/themes/besnappy/scss/snappyfaq.scss'
+      freelancer:
+        files:
+          'public/themes/freelancer/style.css': 'public/themes/freelancer/scss/style.scss'
       default:
         files:
           'public/themes/default/style.css': 'public/themes/default/scss/style.scss'

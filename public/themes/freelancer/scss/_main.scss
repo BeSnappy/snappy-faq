@@ -1,0 +1,63 @@
+body {
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+}
+
+.contain-to-grid {
+  margin-bottom: 40px;
+}
+.top-bar li {
+  border-left: none;
+}
+@media #{$medium-up} {
+  .top-bar-section li a:not(.button) {
+    line-height: $topbar-height - 1;
+  }
+  .top-bar-section li li a:not(.button) {
+    line-height: 1;
+  }
+}
+
+// Logo
+.top-bar .name {
+  width: 272px;
+  h1 a {
+    z-index: 9000;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: block;
+    background: url('https://freelancer-app.fr/css/common/img/besnappyfaq-logo@2x.png') no-repeat;
+    background-size: 272px 83px;
+    text-indent: -90000px;
+    width: 272px;
+    height: 83px;
+  }
+}
+@media #{$small-only} {
+  .top-bar {
+    height: 100px;
+  }
+  .top-bar .name {
+    width: 272px;
+    height: 100px;
+  }
+}
+
+.content {
+  background: #fff;
+  border: 1px solid #d6d7cd;
+}
+
+.sidebar {
+  border: 1px solid #d6d7cd;
+  border-left: none;
+  border-bottom-left-radius: none;
+}
+footer a {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #d6d7cd;
+  border-radius: 10px;
+}
