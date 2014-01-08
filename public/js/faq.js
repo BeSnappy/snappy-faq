@@ -15,7 +15,7 @@ $(document).ready(function(){
     $dd.find(".read-more").fadeOut();
   };
 
-  $(".topic dt a").click(function(e) {
+  $(".faq dt a").click(function(e) {
     expand($(this).parent().next("dd"));
   });
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
     window.location.href = $(this).prev().find("a").attr("href");
   });
 
-  $(".topic dl dd:not('.active')").click(function(e) {
+  $(".faq dl dd:not('.active')").click(function(e) {
     e.preventDefault();
     expand($(this));
   });
