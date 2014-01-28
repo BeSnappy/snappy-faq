@@ -25,7 +25,6 @@ $(document).ready(function(){
   });
 
   $(".faq dl dd:not('.active')").click(function(e) {
-    e.preventDefault();
     expand($(this));
   });
 
