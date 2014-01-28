@@ -9,7 +9,7 @@
 	<link href="themes/default/style.css" rel="stylesheet">
 	<!-- <link href="themes/customers/slideroom.css" rel="stylesheet"> -->
 	<!-- <link href="themes/freelancer/style.css" rel="stylesheet"> -->
-	<!-- <link href="themes/besnappy/snappyfaq.css" rel="stylesheet"> -->
+<!--	 <link href="themes/besnappy/snappyfaq.css" rel="stylesheet">-->
 	<script src="vendor/modernizr/js/modernizr.js"></script>
 </head>
 <body>

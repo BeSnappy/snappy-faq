@@ -25,12 +25,15 @@ body {
   }
 }
 @media #{$small-only} {
-  .top-bar {
-    height: 100px;
+  .contain-to-grid {
+    margin-bottom: 0px;
+  }
+  .content {
+    background: #fff;
+    border: none;
   }
   .top-bar .name {
     width: 272px;
-    height: 100px;
   }
 }
 
