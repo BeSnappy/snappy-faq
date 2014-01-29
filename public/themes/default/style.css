@@ -5550,9 +5550,8 @@ nav i {
   vertical-align: top;
   padding-right: 5px; }
 
-@media only screen and (max-width: 40em) {
-  nav i {
-    vertical-align: middle; } }
+.expanded i {
+  vertical-align: middle; }
 
 .home .intro {
   margin-top: 20px;

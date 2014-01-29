@@ -18,11 +18,10 @@ nav i {
   padding-right: 5px;
 }
 
-@media #{$small-only} {
-  nav i {
-    vertical-align: middle;
-  }
+.expanded {
+  i { vertical-align: middle; }
 }
+
 // Home Page
 .home {
   .intro {

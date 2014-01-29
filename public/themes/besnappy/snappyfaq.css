@@ -582,6 +582,9 @@ body {
   .top-bar .name {
     width: 272px; } }
 
+.expanded .top-bar-section ul li > a {
+  color: #555555; }
+
 .dropdown {
   border: 1px solid #cccccc; }
 
